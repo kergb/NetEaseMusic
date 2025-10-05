@@ -8,13 +8,13 @@
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query url script-request-header  https://raw.githubusercontent.com/kergb/QuantumultX/refs/heads/main/NetEaseMusic.js
 #播放器会员皮肤 
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/playermode\ url script-request-header https://raw.githubusercontent.com/kergb/QuantumultX/refs/heads/main/NetEaseMusic.js
-搜索结果会员歌曲 
+#搜索结果会员歌曲 
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/search\/complex\/(page|rec\/song\/get) url script-request-header  https://raw.githubusercontent.com/kergb/QuantumultX/refs/heads/main/NetEaseMusic.js
-播放器会员歌曲1
+#播放器会员歌曲1
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/v3\/song\/detail url script-request-header https://raw.githubusercontent.com/kergb/QuantumultX/refs/heads/main/NetEaseMusic.js
-播放器会员歌曲2 
+#播放器会员歌曲2 
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/song\/(chorus|enhance\/|play\/|type\/detail\/get url script-request-header https://raw.githubusercontent.com/kergb/QuantumultX/refs/heads/main/NetEaseMusic.js
-播放器会员歌曲3 
+#播放器会员歌曲3 
 ^https:\/\/interface3?\.music\.163\.com\/eapi\/(v1\/artist\/top\/song|v3\/discovery\/recommend\/songs) url script-request-header https://raw.githubusercontent.com/kergb/QuantumultX/refs/heads/main/NetEaseMusic.js
 
 hostname =*.music.163.com
